@@ -39,10 +39,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 1.06
+    - _Alpha_Clip: 0.638
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _CloudsAlpha: 1.96
-    - _CloudsPower: 1
+    - _CloudsPower: 0.72
     - _CloudsScale: 120
     - _DistortScale: 60
     - _VertexOffSet: -5.05
