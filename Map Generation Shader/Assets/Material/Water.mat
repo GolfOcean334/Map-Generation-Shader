@@ -48,7 +48,7 @@ Material:
     m_Floats:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _Fresnel_Power: 1
+    - _Fresnel_Power: 0.533
     - _Noise_Scale: 50
     - _Normal_Strength: 0.89
     - _Smoothness: 0.761
