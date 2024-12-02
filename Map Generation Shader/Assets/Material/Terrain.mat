@@ -36,8 +36,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _SampleTexture2D_0ca67f54bd96442ba0242ecd8945eb87_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d95f2cbc3d2896b4f80cf1a3b8f1da5e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_1a55c60fb5664313a42d41b3dec03cfb_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: ce450b1c2b7a5f0439a5c4095decdcce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_1bb0344dd26c4bc2903daf8e491012f4_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 37b1cb37a9d0fa04ba4dbc8518760bdb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_2688ac5d2e0a4c7ebec10bc0dc714034_Texture_1_Texture2D:
@@ -61,6 +69,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Height: 25
+    - _Intensity: 0
     - _LightColor: 1
     - _LightIntensity: 1
     - _Noise_Scale: 40

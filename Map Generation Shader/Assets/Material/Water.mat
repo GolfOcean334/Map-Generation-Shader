@@ -62,8 +62,9 @@ Material:
     m_Colors:
     - _Color: {r: 0.08877709, g: 0.25057176, b: 0.53773576, a: 0}
     - _Main_Color: {r: 0, g: 0.44257566, b: 0.8301887, a: 0}
-    - _Normal_Map_Speed: {r: 0.01, g: 0.01, b: 0, a: 0}
-    - _Normal_Map_Speed_2: {r: -0.01, g: -0.01, b: 0, a: 0}
+    - _Normal_Map_Speed: {r: 0.002, g: 0.002, b: 0, a: 0}
+    - _Normal_Map_Speed_2: {r: -0.002, g: -0.002, b: 0, a: 0}
+    - _ScaleWater: {r: 0.025, g: 0.02, b: 0, a: 0}
     - _Top_Color: {r: 0.035294116, g: 0.3017436, b: 0.8666667, a: 0}
     - _UV1: {r: 0, g: 0, b: 0, a: 0}
     - _UV2: {r: 0, g: 0, b: 0, a: 0}
