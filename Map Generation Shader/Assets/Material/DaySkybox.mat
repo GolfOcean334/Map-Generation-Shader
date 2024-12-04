@@ -33,7 +33,7 @@ Material:
     - _StarHeight: 258.3
     - _StarIntensity: 0.97
     - _StarPower: 25
-    - _SunSize: 0.155
+    - _SunSize: 0.107
     - _ZenithBlend: 0.3
     m_Colors:
     - _GroundColor: {r: 0.23463199, g: 0.16691881, b: 0.2924528, a: 0}
