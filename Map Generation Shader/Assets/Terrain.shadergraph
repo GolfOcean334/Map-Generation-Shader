@@ -1587,9 +1587,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 76.0,
-            "y": 1671.0001220703125,
-            "width": 145.0000762939453,
+            "x": 105.00001525878906,
+            "y": 1709.0001220703125,
+            "width": 145.0,
             "height": 34.0
         }
     },
@@ -4595,11 +4595,11 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 60.0,
-    "m_FloatType": 0,
+    "m_Value": 1.0,
+    "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 1.0
+        "y": 100.0
     }
 }
 
@@ -5226,10 +5226,10 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": 20.0,
-    "m_FloatType": 0,
+    "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 1.0
+        "y": 100.0
     }
 }
 
@@ -6189,9 +6189,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 259.0000305175781,
-            "y": 1613.0001220703125,
-            "width": 147.00006103515626,
+            "x": 256.0000305175781,
+            "y": 1576.0001220703125,
+            "width": 146.99996948242188,
             "height": 153.0
         }
     },
@@ -6638,7 +6638,7 @@
     "m_ObjectId": "ae6f1e66b844445ebf43b855b8bd1a25",
     "m_Title": "Terrain generation fractale",
     "m_Position": {
-        "x": 23.000059127807618,
+        "x": -80.0,
         "y": 1280.0001220703125
     }
 }
@@ -7680,9 +7680,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 475.0000305175781,
-            "y": 1578.0001220703125,
-            "width": 135.99996948242188,
+            "x": 457.0000305175781,
+            "y": 1583.0001220703125,
+            "width": 136.00003051757813,
             "height": 34.0
         }
     },
@@ -7815,10 +7815,10 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": 40.0,
-    "m_FloatType": 0,
+    "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 1.0
+        "y": 100.0
     }
 }
 
