@@ -14,6 +14,7 @@ public class CameraFollowMultiNoiseTerrain : MonoBehaviour
     private float noise2Amplitude;
     private float noise3Scale;
     private float noise3Amplitude;
+    private float height;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class CameraFollowMultiNoiseTerrain : MonoBehaviour
         noise2Amplitude = terrainMaterial.GetFloat("_Amplitude_2");
         noise3Scale = terrainMaterial.GetFloat("_Noise_Scale_3");
         noise3Amplitude = terrainMaterial.GetFloat("_Amplitude_3");
+        height = terrainMaterial.GetFloat("_Height");
     }
 
     void Update()
@@ -33,14 +35,14 @@ public class CameraFollowMultiNoiseTerrain : MonoBehaviour
 
         // Récupère les coordonnées actuelles de la caméra
         Vector3 cameraPosition = cameraTransform.position;
-        Debug.Log(noise1Amplitude);
 
         // Calcule la hauteur combinée des trois bruits à la position actuelle
         float terrainHeight = GetTerrainHeight(cameraPosition.x, cameraPosition.z, timeOffset);
 
         // Ajuste la position verticale de la caméra
-        cameraTransform.position = new Vector3(cameraPosition.x, terrainHeight + 18f, cameraPosition.z);
+        cameraTransform.position = new Vector3(cameraPosition.x, terrainHeight + 10f, cameraPosition.z);
     }
+
 
     float GetTerrainHeight(float x, float z, float timeOffset)
     {
@@ -50,7 +52,7 @@ public class CameraFollowMultiNoiseTerrain : MonoBehaviour
         float noise3 = Mathf.PerlinNoise((x + timeOffset) * noise3Scale, (z + timeOffset) * noise3Scale) * noise3Amplitude;
 
         // Cumul des noises
-        float totalHeight = noise1 + noise2 + noise3;
+        float totalHeight = (noise1 + noise2 + noise3) * height;
 
         // Debugging
         Debug.Log($"Noise1: {noise1}, Noise2: {noise2}, Noise3: {noise3}, Total Height: {totalHeight}");
