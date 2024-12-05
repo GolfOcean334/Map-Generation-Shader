@@ -68,19 +68,29 @@ Material:
     m_Floats:
     - _Amplitude_1: 0.862
     - _Amplitude_2: 0.617
-    - _Amplitude_3: 0.276
+    - _Amplitude_3: 0.073
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Height: 15
-    - _Intensity: 0
+    - _Intensity: 0.485
     - _LightColor: 1
     - _LightIntensity: 1
     - _Noise_Scale: 40
-    - _Noise_Scale_1: 22.2
-    - _Noise_Scale_2: 52.7
-    - _Noise_Scale_3: 76.1
+    - _Noise_Scale_1: 26.4
+    - _Noise_Scale_2: 53.3
+    - _Noise_Scale_3: 69.5
+    - _RockHeight: 12.1
+    - _RockThreeshold: 0
+    - _SandHeight: 8.94
+    - _SandTreeshold: 0
     - _ScaleImage: 0
+    - _SnowHeight: 14
+    - _SnowThreeshold: 0.24
     - _Speed: 0.01
     m_Colors:
     - _Speed: {r: 0.005, g: 0.005, b: 0, a: 0}
+    - _grass: {r: 0, g: 0.6792453, b: 0.030192971, a: 0}
+    - _rock: {r: 0.41509426, g: 0.41509426, b: 0.41509426, a: 0}
+    - _sand: {r: 0.772549, g: 0.7618921, b: 0.094117604, a: 0}
+    - _snow: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

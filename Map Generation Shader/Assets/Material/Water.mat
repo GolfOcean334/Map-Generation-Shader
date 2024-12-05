@@ -49,12 +49,12 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Distance: 0
-    - _FoamAmount: 1.49
-    - _FoamCutOff: 1
+    - _FoamAmount: 1.2
+    - _FoamCutOff: 0.28
     - _FoamScale: 2.49
     - _Fresnel_Power: 0.533
     - _Intensity: 0.04
-    - _NoiseScale: 100
+    - _NoiseScale: 500
     - _Noise_Scale: 50
     - _NormalStrength: 0
     - _Normal_Strength: 0.89
@@ -68,7 +68,7 @@ Material:
     - _Water_Speed_2: 0.1
     m_Colors:
     - _Color: {r: 0.08877709, g: 0.25057176, b: 0.53773576, a: 0}
-    - _FoamColor: {r: 1.471698, g: 1.471698, b: 1.471698, a: 0.8235294}
+    - _FoamColor: {r: 1.471698, g: 1.471698, b: 1.471698, a: 0.13333334}
     - _FoamSpeed: {r: 0.05, g: 0.05, b: 0, a: 0}
     - _Main_Color: {r: 0, g: 0.44257566, b: 0.8301887, a: 0}
     - _Normal_Map_Speed: {r: 0.002, g: 0.002, b: 0, a: 0}
@@ -78,5 +78,5 @@ Material:
     - _UV1: {r: 0, g: 0, b: 0, a: 0}
     - _UV2: {r: 0, g: 0, b: 0, a: 0}
     - _Water_Speed: {r: -0.01, g: -0.02, b: 0, a: 0}
-    - _WaveSpeed: {r: 0.02, g: 0.02, b: 0, a: 0}
+    - _WaveSpeed: {r: 0.002, g: 0.002, b: 0, a: 0}
   m_BuildTextureStacks: []
