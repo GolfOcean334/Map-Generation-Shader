@@ -25,9 +25,11 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _AnimationDayTime: 1
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _DayNightSlider: 0
+    - _DayTimeSpeed: 5
     - _HorizonBlend: 12.7
     - _NadirBlend: 0.01
     - _StarHeight: 258.3
